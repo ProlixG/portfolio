@@ -23,24 +23,24 @@
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-        <ul id="menu" class="shadow">
+		<ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about">나의 소개</a>
             </li>
             <!-- <li>
                 <a href="#experience">Experience</a>
             </li> -->
             <li>
-                <a href="#education">Education</a>
+                <a href="#education">교육사항</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">포트폴리오</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">사용기술</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact">연락방법</a>
             </li>
         </ul>
     </header>
@@ -69,7 +69,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">나를 소개합니다.</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
@@ -114,7 +114,7 @@
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">교육사항</h2>
         <div class="education-block">
             <h3>부산 서울게임아카데미</h3>
             <span class="education-date">2018.09.20 ~ 2019.01.14</span>
@@ -146,7 +146,7 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">포트폴리오</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -173,8 +173,28 @@
                     <div class="project-info">
                         <h3>[팀프로젝트] 꽃미힐미</h3>
                         <p>
-                        	꽃미힐미에 대한 소개
-                        </p>
+                       		4명이서 Spring Frame Work를 기반으로 제작한 정기구독 신청사이트입니다.<br>
+                       		팀 작업 내에 백엔드 개발 및 버그픽스, 영상녹화 그리고 백엔드부분 PPT 발표를 맡았습니다.
+                       	</p>
+                   		<ul style="text-align:left">
+                   			<li>
+                   				회원가입 및 상품구매 페이지에서 팝업 도로명 주소 API를 구현했습니다.
+                   			</li>
+                   			<li>
+                   				MyBatis를 사용하여 SQL 쿼리 및 객체 맵핑을 관리하였습니다.
+                   			</li>
+                   			<li>
+                   				Rest API를 사용하여 URL 매핑과 Http Method를 구분하였습니다.
+                   			</li>
+                   			<li>
+                   				이메일 서비스를 구현하기 위해 sun.javaMail API를 사용하였습니다.
+                   			</li>
+                   			<li>
+                   				JUnit5와 Postman을 통해 단위테스트 및 Rest API테스트를 했습니다.
+                   			</li>
+                   		
+                   		</ul>
+
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -186,7 +206,7 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">사용기술</h2>
         <ul>
       		<li>내가 사용한 기술들 나열하기</li>
             <li>JavaScript</li>
@@ -213,11 +233,11 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Contact</h2>
+        <h2>연락방법</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="이메일을 적어주세요." required>
+                <input type="email" name="_replyto" placeholder="본인 이메일을 적어주세요." required>
                 <textarea name="message" placeholder="메세지를 적어주세요." required></textarea>
                 <button type="submit">보내기</button>
             </form>
