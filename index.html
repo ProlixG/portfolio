@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    
+    <style>
+    	.text{
+    		font-size : 1.2em;
+    		color : black;
+    	}
+    </style>
 </head>
 
 <body>
@@ -49,8 +56,9 @@
     <div id="lead">
         <div id="lead-content">
             <h1>이한일</h1>
-            <h2>부제목, 보여주고싶은 문장, 지원분야 적기</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h2>소프트웨어 엔지니어</h2>
+            
+            <a href="#" class="btn-rounded-white">이력서 및  자소서 보기 // 수정 : 파일다운로드 추가하기</a>
         </div>
         <!-- End #lead-content -->
 
@@ -72,8 +80,19 @@
                     <h2 class="heading">나를 소개합니다.</h2>
                 </div>
                 <div class="col-md-8">
+                	<h2>개발도 잘해야 즐길 수 있다.</h2>
                     <p>
-                    	나를 소개해주세요.
+                    	&nbsp;&nbsp;&nbsp;&nbsp;
+                    	내가 <span class="text">원하는 것을 구현</span>할 수 있을 때 개발자는 <span class="text">흥미와 재미를 느낀다</span>고 생각합니다.<br>
+                    	어렸을 적 <span class="text">나만의 게임</span>을 만들고 싶어 스타1 유즈맵을 제작해본 경험이 있습니다.
+                    	 또한 흥미로운 기능을 구현한 맵이 있다면 <span class="text">언팩</span>하여 어떻게 구현하였는지 찾아보고 사용해보기도 하였습니다.
+                    	 이렇게 이미 구현된 기능이더라도 필요할 때 활용하고 <span class="text">나만의 것</span>으로 만들기 위해 노력하고있습니다. <br><br>
+                    	
+                    	&nbsp;&nbsp;&nbsp;&nbsp;
+                    	처음 프로그래밍을 시작할 때 아무것도 모르기에 구현할 수 있는 것은 한정되어있습니다. 
+                    	하나 둘 씩 기능을 배우고 <span class="text">활용</span> 및 <span class="text">응용</span>할 때 원하는 것을 구현할 수 있습니다.
+                    	 이렇듯이 계속 사용하고 새로운 것을 공부하여 능수능란하게 코딩하며 <span class="text">잘하는 개발자</span>가 되고싶습니다.
+                    	
                     </p>
                 </div>
             </div>
@@ -120,7 +139,10 @@
             <span class="education-date">2018.09.20 ~ 2019.01.14</span>
             <h4>게임 프로그래밍</h4>
             <p>
-            	내용을 적어주세요.
+            	울산에서 부산으로 주 5일 일일 2시간 수업을 들으며 C, C++와 win32 API를 배웠습니다.<br>
+            	C, C++로 <a href="https://www.youtube.com/watch?v=QgOA3ukieI4">콘솔 RPG게임</a>을 만들며 프로그래밍을 시작했습니다.<br>
+            	win32 API에서는 흰색 윈도우창을 시작으로 렉트를 이용하여 렉트 충돌, 점프와 중력 기능 구현, 이미지 및 프레임 애니메이션 등을 배웠습니다.<br>
+            	게임 프로그래밍인만큼 예외처리와 한정된 컴퓨터 자원인 메모리 관리가 중요하다는 것을 알게되었습니다.
             </p>
         </div>
         <!-- End .education-block -->
@@ -131,13 +153,13 @@
             <h4>자바 응용SW엔지니어링 양성과정</h4>
             <ul>
                 <li>
-                    1
+                  	JAVA 프로그래밍 언어로 개발 환경에 맞는 소프트웨어 기능구현 및 테스트
                 </li>
                 <li>
-                    2
+                   	사용자의 요구사항에 맞게 데이터베이스를 활용하여 SQL을 활용 및 응용
                 </li>
                 <li>
-                    3
+                  	UI 설계 산출물과 GUI 디자인 가이드를 바탕으로 UI 구현 표준을 수립하고 UI를 제작
                 </li>
             </ul>
         </div>
@@ -151,15 +173,31 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project02.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>게시판 기능구현</h3>
+                        <h3>웹 페이지</h3>
                         <p>
-                        	프로젝트에 대한 설명
+                        	Spring Frame Work를 기반으로 답글형 게시판 웹 페이지를 만들었습니다. <br>
+                        	답글 작성 시 최신글이 아래로 내려가도록, 게시글 삭제 시 클릭이 불가능하게 설계했습니다.
                         </p>
-                        <a href="#">View Project</a>
+                        <ul style="text-align:left">
+                   			<li>
+                   				Bootstrap5를 사용하여 반응형 웹 페이지 구현했습니다.
+                   			</li>
+                   			<li>
+                   				JDBC를 사용하여 오라클 데이터베이스와 연동했습니다.
+                   			</li>
+                   			<li>
+                   				Ajax를 사용하여 페이지 새로고침 없이 댓글을 구현했습니다.
+                   			</li>
+                   			<li>
+                   				JUnit5와 Postman을 통해 단위테스트 및 Rest API테스트를 했습니다.
+                   			</li>
+                   		</ul>
+                        
+                        <a href="https://youtu.be/q5-bjqAE0JI">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,7 +205,8 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                    
+                        <img src="images/flowerheal.jpg"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -178,16 +217,16 @@
                        	</p>
                    		<ul style="text-align:left">
                    			<li>
-                   				회원가입 및 상품구매 페이지에서 팝업 도로명 주소 API를 구현했습니다.
+                   				오픈API로 팝업 도로명 주소 API를 구현했습니다.
                    			</li>
                    			<li>
-                   				MyBatis를 사용하여 SQL 쿼리 및 객체 맵핑을 관리하였습니다.
+                   				MyBatis를 사용하여 SQL 쿼리 및 객체 맵핑을 관리했습니다.
                    			</li>
                    			<li>
-                   				Rest API를 사용하여 URL 매핑과 Http Method를 구분하였습니다.
+                   				Rest API를 사용하여 URL 매핑과 Http Method를 관리했습니다.
                    			</li>
                    			<li>
-                   				이메일 서비스를 구현하기 위해 sun.javaMail API를 사용하였습니다.
+                   				sun.javaMail API를 사용하여 이메일 서비스를 구현했습니다.
                    			</li>
                    			<li>
                    				JUnit5와 Postman을 통해 단위테스트 및 Rest API테스트를 했습니다.
@@ -195,7 +234,7 @@
                    		
                    		</ul>
 
-                        <a href="#">View Project</a>
+                        <a href="https://youtu.be/Onevj9_JwwM">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -208,9 +247,8 @@
     <div id="skills">
         <h2 class="heading">사용기술</h2>
         <ul>
-      		<li>내가 사용한 기술들 나열하기</li>
-            <li>JavaScript</li>
             <li>HTML5</li>
+            <li>JavaScript</li>
             <li>CSS</li>
             <li>JSP</li>
             <li>Ajax</li>
@@ -227,6 +265,7 @@
             <li>Postman</li>
             <li>Oracle18c</li>
             <li>도로명 주소 API</li>
+            <li>Postman</li>
             <li>github</li>
         </ul>
     </div>
@@ -235,11 +274,11 @@
     <div id="contact">
         <h2>연락방법</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/gksdlf7709@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="본인 이메일을 적어주세요." required>
                 <textarea name="message" placeholder="메세지를 적어주세요." required></textarea>
-                <button type="submit">보내기</button>
+                <button type="submit">연락하기</button>
             </form>
         </div>
         <!-- End #contact-form -->
